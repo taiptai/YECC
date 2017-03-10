@@ -1,7 +1,7 @@
   <html>
   <head>
-  <script type="text/javascript" src="http://yecccmu-test.herokuapp.com/justgage.js"></script>
-  <script type="text/javascript" src="http://yecccmu-test.herokuapp.com/raphael-2.1.4.min.js"></script>
+  <script src="http://yecccmu-test.herokuapp.com/justgage.js"></script>
+  <script src="http://yecccmu-test.herokuapp.com/raphael-2.1.4.min.js"></script>
   
   <script>
   var g = new JustGage({
