@@ -3,7 +3,7 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<?php
 		$ch = curl_init();
-		curl_setopt($ch,CURLOPT_URL,"http://localhost/weather/analyze.php");
+		curl_setopt($ch,CURLOPT_URL,"http://yecccmu-test.herokuapp.com/dataAnalyse.json");
 		curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
 		$output=curl_exec($ch);
 		curl_close($ch);
