@@ -14,8 +14,8 @@
 </script>
   </head>
   <body>
-	  <center>
-    <div id="gauge" class="200x160px"></div>
-		</center>
+
+    <div id="gauge" style="width: 300px; height: 200px"></div>
+
   </body>
 </html>
