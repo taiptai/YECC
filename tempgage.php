@@ -4,7 +4,7 @@
   <script src="http://yecccmu-test.herokuapp.com/raphael-2.1.4.min.js"></script>
   
   <script>
-  var g = new JustGage({
+  var guage = new JustGage({
     id: "gauge",
     value: 25,
     min: 0,
