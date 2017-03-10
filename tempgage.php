@@ -4,12 +4,12 @@
   <script src="http://yecccmu-test.herokuapp.com/raphael-2.1.4.min.js"></script>
   
   <script>
-  var guage = new JustGage({
+  var g = new JustGage({
     id: "gauge",
     value: 25,
     min: 0,
     max: 50,
-    title: "Visitors"
+    title: "Temperature"
   });
 </script>
   </head>
