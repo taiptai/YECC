@@ -39,6 +39,8 @@
     </script>
   </head>
   <body>
+	  <center>
     <div id="curve_chart" style="width: 300px; height: 200px"></div>
+		  </center>
   </body>
 </html>
