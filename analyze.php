@@ -24,7 +24,7 @@
 	//var_dump($foreCastValue);
 	
 	
-	$data = file_get_contents("http://localhost/weather/dataTemp.json");
+	$data = file_get_contents("http://yecccmu-test.herokuapp.com/forecast.json");
 	
 	$dataDate = array();
 	$dataValue = array();
