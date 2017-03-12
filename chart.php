@@ -28,9 +28,9 @@
 
         var options = {
           title: '',
-	hAxis: {
-          title: 'Datetime'
-        },
+	//hAxis: {
+         // title: 'Datetime'
+        //},
         vAxis: {
           title: 'Temperature'
         },
