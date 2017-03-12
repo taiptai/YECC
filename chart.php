@@ -27,9 +27,21 @@
         var data = google.visualization.arrayToDataTable(<?=$output?>);
 
         var options = {
-          title: 'Company Performance',
+          
           curveType: 'function',
-          legend: { position: 'bottom' }
+          legend: { position: 'bottom' },
+	  series: {
+          // Gives each series an axis name that matches the Y-axis below.
+          0: {axis: 'Temps'},
+        },
+        axes: {
+          // Adds labels to each axis; they don't have to match the axis names.
+          y: {
+            Temperature: {label: 'Temps (Celsius)'},
+            Datetime: {label: 'Datetime'}
+          }
+	  
+          
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
