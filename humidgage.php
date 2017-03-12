@@ -32,9 +32,7 @@
           label: "%"
         });
 
-        setInterval(function() {
-          g1.refresh(getRandomInt(0, 100));
-        }, 1000);
+
       };
     </script>
   </body>
