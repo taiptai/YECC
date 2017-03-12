@@ -27,7 +27,9 @@
         var data = google.visualization.arrayToDataTable(<?=$output?>);
 
         var options = {
-          title: 'Company Performance',
+          title: '',
+	xlabel: 'DateTime',
+	ylabel: 'Temperature(C)',
           curveType: 'function',
           legend: { position: 'bottom' }
 		  
