@@ -28,8 +28,12 @@
 
         var options = {
           title: '',
-	xlabel: 'DateTime',
-	ylabel: 'Temperature(C)',
+	hAxis: {
+          title: 'Datetime'
+        },
+        vAxis: {
+          title: 'Temperature'
+        },
           curveType: 'function',
           legend: { position: 'bottom' }
 		  
