@@ -50,7 +50,7 @@
   </head>
   <body>
 	  <center>
-    <div id="curve_chart" style="width: 300px; height: 200px"></div>
+    <div id="curve_chart" style="width: 300px; height: 300px"></div>
 		  </center>
   </body>
 </html>
