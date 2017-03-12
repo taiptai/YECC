@@ -25,7 +25,7 @@
       window.onload = function(){
         var g1 = new JustGage({
           id: "g1",
-          value: getRandomInt(0, 50),
+          value: 26,
           min: 0,
           max: 50,
           title: "Temperature",
