@@ -31,10 +31,6 @@
           title: "Temperature",
           label: "ºC"
         });
-
-        setInterval(function() {
-          g1.refresh(getRandomInt(0, 50));
-        }, 1000);
       };
     </script>
   </body>
