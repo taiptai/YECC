@@ -25,7 +25,7 @@
       window.onload = function(){
         var g1 = new JustGage({
           id: "g1",
-          value: getRandomInt(0, 100),
+          value: 40,
           min: 0,
           max: 100,
           title: "Humidity",
