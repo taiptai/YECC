@@ -62,7 +62,7 @@
         });
 	setInterval(function() {
             z1.refresh(document.getElementById("data").innerHTML);
-        }, 2500);
+        }, 1000);
     });
 		</script>
     </body>
