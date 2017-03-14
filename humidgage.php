@@ -45,7 +45,7 @@
         microgear.on('absent', function(event) {
             console.log(event);
         });
-		microgear.subscribe("/gearname/Smarthydro/temp")
+		microgear.subscribe("/gearname/Smarthydro/humid")
         microgear.connect(APPID);
 		
 		
