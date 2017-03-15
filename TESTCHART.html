@@ -1,9 +1,15 @@
 <html>
 <head>
+  <script language="javascript">
+function iframeHeight(obj){
+    the_height= obj.contentWindow.document.body.offsetHeight;
+    obj.height=the_height+10;
+}
+    </head>
 <body>
 <center>
 
-<iframe width="300" height="260" style="border: 1px solid #cccccc;" border="0" scrolling="no" frameborder="0" src="https://thingspeak.com/channels/215246/charts/2?average=15&bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Current+Temperature&type=line&xaxis=Time&yaxis=Temperture+%28+C+%29&yaxismax=50&yaxismin=0"></iframe>
+<iframe style="border: 1px solid #cccccc;" border="0" scrolling="no" frameborder="0" src="https://thingspeak.com/channels/215246/charts/2?average=15&bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Current+Temperature&type=line&xaxis=Time&yaxis=Temperture+%28+C+%29&yaxismax=50&yaxismin=0" onload="iframeHeight(this) ></iframe>
 </center>
 </body>
 </html>
